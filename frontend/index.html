@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de tarefas para fins organizacionais.">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main class="app"">
+    <div class="container">
+    <section class="greeting">
+      <h2 class="title">
+        Bem-vindo(a) à sua lista de tarefas!
+      </h2>
+    </section>
+
+    <section class="create-todo">
+      <form action="" id="new-todo-form">
+        <h4>Qual tarefa deseja adicionar?</h4>
+        <input type="text" name="content" id="content" placeholder="Ex: Fazer compras" />
+        <input type="submit" id="submit" value="Adicionar tarefa" />
+      </form>
+    </section>
+
+    <section class="todo-list">
+      <h3>SUA LISTA:</h3>
+      <div class="list" id="todo-list">
+        <!-- <div class="todo-item">
+          <label>
+            <input type="checkbox" />
+            <span class="bubble"></span>
+          </label>
+
+          <div class="todo-content">
+            <input type="text" value="Fazer compras" readonly />
+          </div>
+
+          <div class="actions">
+            <button class="edit">Editar</button>
+            <button class="delete">Apagar</button>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+  </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
